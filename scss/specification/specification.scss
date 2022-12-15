@@ -1,0 +1,28 @@
+.specification {
+  padding: 60px 0;
+
+  .specs {
+    padding-left: 4rem;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin-bottom: 30px;
+
+      &:before {
+        font-family: 'Font Awesome 5 Free';
+        font-size: 2rem;
+        content: '\f058';
+        position: absolute;
+        left: -50px;
+        margin-top: -2px;
+        color: #8b62ff;
+      }
+    }
+  }
+
+  .brands {
+    margin: 60px;
+    align-items: center;
+  }
+}

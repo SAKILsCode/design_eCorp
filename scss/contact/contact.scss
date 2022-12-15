@@ -1,0 +1,35 @@
+.contact-section {
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .contact-form {
+    margin-top: 15px;
+  }
+
+  .form-control {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+
+    &:focus,
+    &:hover {
+      box-shadow: none;
+      border-color: #eee;
+    }
+  }
+
+  textarea {
+    max-width: 100%;
+  }
+
+  button {
+    padding: 0.5rem;
+    background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+    border: none;
+    outline: none;
+  }
+}
