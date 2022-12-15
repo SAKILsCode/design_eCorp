@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/*
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
@@ -10821,7 +10821,7 @@ footer .social-icon:hover {
 }
 
 .hero-section {
-  background-image: url(./../../img/slider/slider3.jpg);
+  background-image: url("./../../img/slider/slider3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
