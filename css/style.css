@@ -10821,7 +10821,8 @@ footer .social-icon:hover {
 }
 
 .hero-section {
-  background-image: url("./../../img/slider/slider3.jpg");
+  /*  changing image path manually from css (overriding scss style)  */
+  background-image: url("./../img/slider/slider3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
